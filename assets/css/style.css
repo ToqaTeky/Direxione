@@ -552,6 +552,9 @@ section {
     transition: 0.5s;
     z-index: 9999;
     margin-right: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px 3px;
   }
 
   .mobile-nav-hide {
@@ -1130,7 +1133,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 150px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
