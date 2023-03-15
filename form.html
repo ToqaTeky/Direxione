@@ -1,0 +1,187 @@
+<style>
+    .get-in-touch {
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+    
+    }
+    .get-in-touch .title {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 3.2em;
+      line-height: 48px;
+      padding-bottom: 48px;
+         color:#15A563 ;
+        background: #15A563;
+        background: -moz-linear-gradient(left,#ff7800  0%,#15A563 100%) !important;
+        background: -webkit-linear-gradient(left,#ff7800 0%,#15A563 100%) !important;
+        background: linear-gradient(to right,#ff7800 0%,#15A563  100%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+    
+    .contact-form .form-field {
+      position: relative;
+      margin: 32px 0;
+    }
+    .contact-form .input-text {
+      display: block;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 2px 0;
+      border-color: #15A563;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+    }
+    .contact-form .input-text:focus {
+      outline: none;
+    }
+    .contact-form .input-text:focus + .label,
+    .contact-form .input-text.not-empty + .label {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+    }
+    .contact-form .label {
+      position: absolute;
+      left: 20px;
+      bottom: 11px;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      color: #15A563;
+      cursor: text;
+      transition: -webkit-transform .2s ease-in-out;
+      transition: transform .2s ease-in-out;
+      transition: transform .2s ease-in-out, 
+      -webkit-transform .2s ease-in-out;
+    }
+    .contact-form .submit-btn {
+      display: inline-block;
+      background-color: #000;
+       background-image: linear-gradient(125deg,#ff7800 ,#15A563);
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      padding: 8px 16px;
+      border: none;
+      width:200px;
+      cursor: pointer;
+    }</style>
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <section class="get-in-touch">
+                <h1 class="title">Apply Now</h1>
+                <form class="contact-form row">
+                   <div class="form-field col-lg-6">
+                      <input id="name" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Full name</label>
+                   </div>
+                   <div class="form-field col-lg-6 ">
+                      <input id="email" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">E-mail</label>
+                   </div>
+                   <div class="form-field col-lg-6 ">
+                      <input id="company" class="input-text js-input" type="text" required>
+                      <label class="label" for="company">Phone number</label>
+                   </div>
+                    <div class="form-field col-lg-6 ">
+                      <input id="phone" class="input-text js-input" type="text" required>
+                      <label class="label" for="phone">Age</label>
+                   </div>
+                   <div class="form-field col-lg-6 ">
+                     <input id="phone" class="input-text js-input" type="text" required>
+                     <label class="label" for="phone">Type of driving license</label>
+                  </div>
+                  <div class="form-field col-lg-6 ">
+                     <input id="phone" class="input-text js-input" type="text" required>
+                     <label class="label" for="phone">Location</label>
+                  </div>
+                  <div class="form-field col-lg-6 ">
+                     <input id="phone" class="input-text js-input" type="text" required>
+                     <label class="label" for="phone">Expected Payment - per hour</label>
+                  </div>
+                   <div class="form-field col-lg-12">
+                   </div>
+                   <div class="form-field col-lg-12">
+                     <label class="label" for="message"> Education Details </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                     <label class="form-check-label" for="exampleRadios1">
+                       High School
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                     <label class="form-check-label" for="exampleRadios2">
+                       University
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                     <label class="form-check-label" for="exampleRadios3">
+                       Others
+                     </label>
+                   </div>
+                  <div class="form-field col-lg-12">
+                     <label class="label"> Choose Your preferable location</label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Amsterdam
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Rotterdam
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Utrecht
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Breda
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Eindhoven
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="checkbox"  value="" id="defaultcheck1" check>
+                     <label class="form-check-label" for="defaultcheck1">
+                       Maastricht
+                     </label>
+                   </div>
+             
+                   </select>
+                   <div class="form-field col-lg-12">
+                      <input class="submit-btn" type="submit" value="Submit">
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
