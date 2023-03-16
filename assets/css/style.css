@@ -22,6 +22,11 @@
   scroll-behavior: smooth;
 }
 
+.btn-orange{
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1924,7 +1929,7 @@ section {
 }
 
 .footer .footer-links ul li {
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
 }
@@ -1960,4 +1965,28 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/* search */
+#search .btn:hover{
+  color:#fff;
+}
+
+#search  .input-text:focus{
+  box-shadow: 0px 0px 0px;
+  border-color:#ff7800;
+  outline: 0px;
+}
+
+#search .form-control {
+  border: 1px solid #ff7800;
+}
+
+@media (max-width: 640px) {
+  footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 }
