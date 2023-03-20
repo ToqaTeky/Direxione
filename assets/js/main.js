@@ -97,14 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Initiate pURE cOUNTER
    */
-  new PureCounter();
+  // new PureCounter();
 
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
+  // const glightbox = GLightbox({
+  //   selector: '.glightbox'
+  // });
 
 
 
@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
       mirror: false
     });
   }
+
   window.addEventListener('load', () => {
     aos_init();
   });
