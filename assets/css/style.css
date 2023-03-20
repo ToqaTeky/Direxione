@@ -39,6 +39,16 @@
   color: var(--color-primary);
   border-color: var(--color-primary);
 }
+.btn-outline-warning:hover,
+.btn-outline-warning:active{
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+}
+#search img{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
